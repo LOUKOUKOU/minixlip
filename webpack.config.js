@@ -5,7 +5,7 @@ const path = require('path');
 
 module.exports = {
 
-    entry: './src/platformer.js',
+    entry: './src/App.js',
 
     output: {
         path: path.resolve(__dirname, 'build'),
