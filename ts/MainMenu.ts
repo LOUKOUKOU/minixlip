@@ -7,7 +7,6 @@ export default  {
         this.state.add('Level', Level);
         this.physics.startSystem(Phaser.Physics.ARCADE);
         this.world.enableBody = true;
-
         this.level_button = this.add.text(30, 30, 'Level_1', button_style);
         this.level_button.inputEnabled = true;
         this.level_button.input.enableDrag();
